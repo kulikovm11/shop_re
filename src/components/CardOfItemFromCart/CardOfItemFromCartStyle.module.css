@@ -1,0 +1,88 @@
+.Wrap{
+    padding: 10px;
+}
+
+
+.Info{
+    display: flex;
+    padding-top: 5px;
+}
+
+.Logo {
+    width: 80px;
+    height: 65px;
+}
+
+.DeleteFromCart{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.DeleteFromCart:hover{
+    transform: scale(1.2);
+}
+
+
+.Price{
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+.Price input {
+    width: 56px;
+    height: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px;
+    background: none;
+    padding-left: 15px;
+
+}
+
+.Price button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 34px;
+    text-align: center;
+}
+
+.Total_price{
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.TotalCount{
+
+    width: 370px;
+    height: 100px;
+    background-color: rgba(0, 80, 160, 0.1);
+    border: 1px solid #0063a0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70%;
+}
+
+.Order_button{
+    border: none;
+    width: 171px;
+    height: 48px;
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    transition: ease-in-out 0.4s;
+
+}
+
+.Order_button:hover{
+    background-color: #91aef1;
+}
+
+.Order_count{
+    font-size: 24px;
+}

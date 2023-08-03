@@ -1,0 +1,31 @@
+.Wrap{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+.Image{
+    width: 400px;
+    height: 400px;
+    transition: 0.5s ease;
+}
+
+.InfoAbout{
+
+}
+
+.Carousel{
+    width: 50%;
+}
+
+@media screen and (max-width: 1232px) {
+    .Wrap{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+

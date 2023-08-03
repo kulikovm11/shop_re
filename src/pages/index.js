@@ -1,0 +1,6 @@
+export * from './AboutProductPage/AboutProductPage'
+export * from './CartPage/CartPage'
+export * from './HomePage/HomePage'
+export * from './LoginPage/LoginPage'
+export * from './WishListPage/WishListPage'
+export * from './NotFoundPage/NotFoundPage'

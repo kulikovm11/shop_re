@@ -1,0 +1,35 @@
+.Footer{
+    background: linear-gradient(96.78deg, #F64D4D -57.09%, #4D5EF6 101.17%);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+
+}
+.Footer p:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+.Social{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    transition: ease 1s;
+
+}
+.Social img{
+    width: 40px;
+    height: 40px;
+}
+
+.Social img:hover{
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}

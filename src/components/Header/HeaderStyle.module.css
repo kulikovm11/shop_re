@@ -1,0 +1,63 @@
+.Header{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Header a {
+    text-decoration: none;
+
+}
+.Header a[class='active']{
+    color: cornflowerblue;
+
+}
+
+.Logo a{
+    text-shadow: -1px -1px 0 #035bfd, 1px -1px 0 #035bfd, -1px 1px 0 #035bfd, 1px 1px 0 #035bfd;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.Wish_Cart{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+
+
+
+
+
+.Header a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.login_btn{
+    cursor: pointer;
+    border-bottom: 1px solid cornflowerblue;
+    border-right: 1px solid cornflowerblue;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.login_btn:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transform: scale(1.1);
+}
+

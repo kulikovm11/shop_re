@@ -1,0 +1,69 @@
+/* Sidebar.module.css */
+.Wrap {
+    /* Add your styles for the sidebar container here */
+}
+
+nav {
+    /* Add your styles for the sidebar navigation here */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    /* Add your styles for the list items here */
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.Active {
+    /* Add your styles for the active list item here */
+    background-color: #f0f0f0;
+}
+
+/* Mobile Dropdown Styles */
+
+.MobileDropdown {
+    /* Add your styles for the mobile dropdown container here */
+    position: relative;
+}
+
+.MobileHeader {
+    /* Add your styles for the mobile dropdown header here */
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.MobileMenu {
+    /* Add your styles for the mobile dropdown menu here */
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.MobileMenu li {
+    /* Add your styles for the mobile dropdown list items here */
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.MobileMenu li:last-child {
+    border-bottom: none;
+}
